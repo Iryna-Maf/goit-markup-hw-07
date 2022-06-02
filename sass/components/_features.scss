@@ -6,31 +6,31 @@
 
 .features-list {
   --items: 4;
-}
 
-.features-list__icon {
-  display: flex;
-  height: 120px;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--secondary-background);
-}
+  &__icon {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-background);
+  }
 
-.features-list__title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
+  &__title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
 
-.features-list__text {
-  color: var(--primary-text-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  &__text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
 }

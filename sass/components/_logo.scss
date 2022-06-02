@@ -8,14 +8,14 @@
   line-height: 1.19;
   text-decoration: none;
   display: block;
-}
 
-.logo__dark {
-  color: var(--title-text-color);
-}
+  &__dark {
+    color: var(--title-text-color);
+  }
 
-.logo__light {
-  color: var(--primary-white-color);
+  &__light {
+    color: var(--primary-white-color);
+  }
 }
 
 .nav__logo {
